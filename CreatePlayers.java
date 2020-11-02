@@ -7,14 +7,16 @@ import jade.wrapper.AgentController;
 
 public class CreatePlayers extends Agent {
   protected void setup() {
-        Object[] args = getArguments();
+      Object[] args = getArguments();
       int numberOfPlayers = Integer.parseInt( (String) args[0]);
+	  
       for (int i=0; i<numberOfPlayers; i++) {
       	String name = "Player" + (i+1);
         createAgent(name, "mkf.jade.guessinggame.Player");
       }
+	  
       createAgent("Host", "mkf.jade.guessinggame.Host");
-	}
+  }
 
   private void createAgent(String name, String className) {
       	AID agentID = new AID( name, AID.ISLOCALNAME );
