@@ -42,8 +42,6 @@ class HostBehaviour extends SimpleBehaviour {
   private short actionCounter = 0;
   private Host myAgent;
   private Set<AID> respondingPlayers = new HashSet<>();
-  private static final short MIN_LIMIT = 2;
-  private static final int MAX_LIMIT = 60;
 
   public HostBehaviour(Agent agent) {
       super(agent);

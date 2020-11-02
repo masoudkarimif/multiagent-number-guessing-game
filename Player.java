@@ -4,8 +4,6 @@ import java.util.Random;
 import jade.lang.acl.ACLMessage;
 import jade.lang.acl.MessageTemplate;
 import jade.core.behaviours.SimpleBehaviour;
-import jade.core.AID;
-import jade.core.Agent;
 
 public class Player extends EnhancedAgent {
     protected void setup() {
