@@ -2,8 +2,6 @@
 
 ## Build
 
-<br/>
-
 ### Using `javac`
 
 First, download the `jade.jar` file from [here](https://jade.tilab.com/download/jade/). There are 5 different options for download. You'll only need the `jade.jar` file for this application, so you'll be fine with just downloading `jadeBin`.
